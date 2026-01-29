@@ -86,6 +86,7 @@ M.setup = function()
 	vim.api.nvim_set_hl(0, "@string.special.symbol", { fg = p.purple, bold = true })
 
 	-- yellow for comments
+	vim.api.nvim_set_hl(0, "Comment", { fg = p.yellow, bg = p.yellowbg })
 	vim.api.nvim_set_hl(0, "@comment", { fg = p.yellow, bg = p.yellowbg })
 
 	-- blue for global definitions
